@@ -26,7 +26,7 @@ export default function HomePage() {
           </p>
           <div className="bg-neutral-900 rounded-lg p-4 overflow-x-auto">
             <code className="text-emerald-400 text-lg font-mono">
-              Read http://localhost:3000/skill.md
+              Read https://artclaw-gallery.vercel.app/skill.md
             </code>
           </div>
         </div>
