@@ -77,7 +77,7 @@ export default function ArtCanvas() {
       };
 
       // 实例化 p5 并绑定到我们指定的 div 上
-      myP5 = new p5(sketch, containerRef.current);
+      myP5 = new p5(sketch, containerRef.current!);
     };
 
     initP5();
