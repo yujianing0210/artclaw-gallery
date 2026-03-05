@@ -29,7 +29,7 @@ export default function ArtCanvas() {
 
   // 2. 数据准备好后，初始化 p5.js
   useEffect(() => {
-    if (!containerRef.current || proposals.length === 0) return;
+    if (!containerRef.current) return;
 
     let myP5: any;
 
